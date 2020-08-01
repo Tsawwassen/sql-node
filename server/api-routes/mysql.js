@@ -5,7 +5,7 @@ const db = require('../models/notes')
 
 /* GET users listing. */
 router.get('/', function(req, res) {
-  res.send({'message': "hello"});
+  	res.send({'message': "hello"});
 });
 
 router.get('/notes', db.getNotes);

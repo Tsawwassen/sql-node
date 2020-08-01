@@ -4,7 +4,10 @@
   "description": "use node express to connect to an sql server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-project": "cd server && npm install",
+    "start": "cd server && npm start"
+
   },
   "repository": {
     "type": "git",

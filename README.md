@@ -22,6 +22,7 @@ TBD
 ## Credits
 Piero Borrelli, The perfect architecture flow for your next Node.js project ( https://blog.logrocket.com/the-perfect-architecture-flow-for-your-next-node-js-project/ )
 Mark Drake, How To Install MySQL on Ubuntu 20.04 ( https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04 )
+www.mysqltutorial.org, Calling MySQL Stored Procedures from Node.js ( https://www.mysqltutorial.org/mysql-nodejs/call-stored-procedures/ )
 
 #### Anything else that seems useful
 

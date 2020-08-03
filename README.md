@@ -1,5 +1,16 @@
-## Project title
-Use Node-Express to interact with a mySQL database.
+## Weekend Project title
+Use Node-Express with mySQL.
+
+## Goal
+Using Node-Express, interact with a mySQL database.
+
+##Post Weekend Project Comment
+- Goal complete. Created Node Express server that will interact with a mySQL database.
+- Created SQL Stored procedures(SProcs) that the server can use, but I'm not sure if its better to use SProcs or to type out the full SQL command.
+-- Both methods are in the notes.js file for reference.
+- I am happy with how the file structor is organized.
+-- I might not need to mysql object in the db-config.js file with the config options.
+- I'm not closing any connections to the DB after getting used. Not sure if this needs to be done, or if its complaining where the variable is getting created vs were its getting closed
 
 ## Motivation
 I have already used MongoDB in many past projects, but never tried making something that used a mySQL server.

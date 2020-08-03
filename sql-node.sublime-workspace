@@ -47,6 +47,45 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "server/api-routes/mysql.js",
+			"settings":
+			{
+				"buffer_size": 315,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "mysql.js"
+			}
+		},
+		{
+			"file": "server/models/notes.js",
+			"settings":
+			{
+				"buffer_size": 742,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "notes.js"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 979,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/config/db-config.js",
+			"settings":
+			{
+				"buffer_size": 190,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "mysql.js"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,10 +127,20 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mitchell/projects/sql-node"
+		"/home/mitchell/projects/sql-node",
+		"/home/mitchell/projects/sql-node/server",
+		"/home/mitchell/projects/sql-node/server/api-routes",
+		"/home/mitchell/projects/sql-node/server/config",
+		"/home/mitchell/projects/sql-node/server/models",
+		"/home/mitchell/projects/sql-node/server/routes"
 	],
 	"file_history":
 	[
+		"/home/mitchell/projects/sql-node/server/app.js",
+		"/home/mitchell/projects/sql-node/server/package.json",
+		"/home/mitchell/projects/sql-node/README.md",
+		"/home/mitchell/projects/sql-node/package.json",
+		"/home/mitchell/projects/sql-node/server/package-lock.json",
 		"/home/mitchell/projects/LargeBoxApp/app/src/components/lba/lba_label.css",
 		"/home/mitchell/projects/LargeBoxApp/app/src/components/lba/lba_label.js",
 		"/home/mitchell/projects/LargeBoxApp/app/src/components/lba/lba_input.js",
@@ -110,7 +159,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -124,6 +173,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"err",
 			"lables"
 		],
 		"highlight": true,
@@ -142,8 +192,124 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "server/api-routes/mysql.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mysql.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/models/notes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"auto_name": "notes.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server/config/db-config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mysql.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

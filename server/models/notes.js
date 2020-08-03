@@ -21,6 +21,8 @@ const insertNotes = (req, res) => {
         //var sql = `INSERT INTO comment (text, date) VALUES ('${textInput}', '${dateInput}');`;
         var sql = `CALL InsertComment('${textInput}', '${dateInput}')`
 
+        //TODO : The above code is probably vulnerable to SQL Injections. 
+
 
         db.con.query(sql, function (err, result) {
             if (err) throw res.send({'message': err});
